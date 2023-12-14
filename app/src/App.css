@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: #010101;
+  background-color: #ffffff;
+}
+.app {
+  width: 100%;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  border: 2px solid #000000;
+  margin: 1rem auto;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #b7b7b7;
+}
+.account p {
+  margin: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+.deploy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  width: 80%;
+}
+.deploy form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+.deploy form input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  width: 70%;
+}
+input::placeholder {
+  color: #17ea5d;
+  text-align: center;
+  font-weight: bold;
+}
+.deploy form [type="submit"] {
+  padding: 10px;
+  background-color: blue;
+  cursor: pointer;
+  color: #ffffff;
+  width: 30%;
+  border: transparent;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 1rem auto;
+}
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table tr:hover {
+  background-color: #ddd;
+}
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.btn {
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #04aa6d;
+  color: white;
+}
